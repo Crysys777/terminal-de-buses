@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
 //creamos las 7 rutas del controlador empresa
 Route::resource('empresas', 'EmpresaController');
 Route::resource('buses', 'BusController');
+Route::resource('clientes', 'ClienteController');
+

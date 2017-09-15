@@ -40,7 +40,7 @@ class BusController extends Controller
     public function edit($idBus)
     {
     	
-    	$bus = Bus::where('idBus', $idBus);
+    	$bus = Bus::find($idBus);
     	return view('buses.edit', compact('bus'));
     }
 

@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Terminal</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -85,6 +85,7 @@
                 <div class="links">
                     <a href="{{ route('empresas.index') }}">Empresas</a>
                     <a href="{{ route('buses.index') }}">Buses</a>
+                    <a href="{{ route('clientes.index') }}">Clientes</a>
                    
                 </div>
             </div>

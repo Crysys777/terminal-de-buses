@@ -4,7 +4,7 @@
 
 	<div class="col-sm-8">
 		<h2>
-			{{ $bus->id_Empresa}}
+			{{ $bus->idBus}}
 			<a href="{{ route('buses.edit', $bus->idBus)}}" class="btn btn-default pull-right">Editar</a>
 		</h2>
 
@@ -29,7 +29,7 @@
 			</tbody>
 		</table>
 			
-			{!! $buses->render() !!}
+			
 			
 	</div>
 	<div class="col-sm-4">

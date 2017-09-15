@@ -35,7 +35,7 @@
 							<a href="{{ route('empresas.edit', $empresa->idEmpresa)}}" class="btn btn-link">Editar</a>
 						</td>
 						<td>
-							<form action="{{ route('empresas.destroy', $empresa->idEmpresa) }}" method="post" accept-charset="utf-8">
+							<form action="{{ route('empresas.destroy', $empresa->idEmpresa) }}" method="POST" accept-charset="utf-8">
 								{{ csrf_field() }}
 								<input type="hidden" name="_method" value="DELETE">
 								<button class="btn btn-link">Borrar</button>

@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class TipoBus extends Model
 {
+	protected $primaryKey = 'idtipoBus';
     protected $fillable = [
-       'idtipoBus', 'nombretipoBus', 
+       'nombretipoBus', 
     ];
 }

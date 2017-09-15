@@ -20,8 +20,8 @@ class CreateBusesTable extends Migration
             $table->integer('cantidadPiso');
             $table->integer('numeroCarril');
             $table->text('observacion');
-            $table->string('fotoInterna');
-            $table->string('fotoExterna');
+            $table->binary('fotoInterna');
+            $table->binary('fotoExterna');
             $table->timestamps();
             $table->integer('id_Empresa')->unsigned();
             
@@ -31,7 +31,7 @@ class CreateBusesTable extends Migration
 
         Schema::table('buses', function (Blueprint $table) {
             
-            $table->foreign('id_Empresa')->references('idEmpresa')->on('empresas')->onUpdate('cascade');
+            $table->foreign('id_Empresa')->references('idEmpresa')->on('empresas')->onUpdate('cascade')->onDelete('cascade');
 
            
         });

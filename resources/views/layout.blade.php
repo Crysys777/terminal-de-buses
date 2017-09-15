@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>Terminal</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 </head>
@@ -14,7 +14,7 @@
 		<<div class="row">
 			
 			<div class="col-xs-12">
-				<h1 class="page-header text-center"> Terminal de buses</h1>
+				<h1 class="page-header text-center">Terminal de buses</h1>
 			</div>
 		
 			@yield('content')

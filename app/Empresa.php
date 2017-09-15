@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Empresa extends Model
 {
+	protected $primaryKey = 'idEmpresa';
     protected $fillable = [
-       'idEmpresa', 'nombreEmpresa', 'nitEmpresa', 'numeroAutorizacion', 'fechaFundacion',
+       'nombreEmpresa', 'nitEmpresa', 'numeroAutorizacion', 'fechaFundacion',
     ];
 }

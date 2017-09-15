@@ -15,7 +15,7 @@ class CreateTipoBusesTable extends Migration
     {
         Schema::create('tipo_buses', function (Blueprint $table) {
             $table->increments('idtipoBus');
-            $table->string('nombretipoBus');
+            $table->enum('nombretipoBus', ['Bus Normal', 'Bus Semicama', 'Bus Cama']);
             $table->timestamps();
            
         });
