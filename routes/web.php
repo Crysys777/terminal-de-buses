@@ -21,4 +21,5 @@ Route::get('/', function () {
 Route::resource('empresas', 'EmpresaController');
 Route::resource('buses', 'BusController');
 Route::resource('clientes', 'ClienteController');
+Route::resource('asientos', 'AsientoController');
 

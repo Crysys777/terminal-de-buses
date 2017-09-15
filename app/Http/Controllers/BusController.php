@@ -12,6 +12,8 @@ class BusController extends Controller
     {
     	$buses = Bus::orderBy('idBus', 'DESC')->paginate();
     	return view('buses.index', compact('buses'));
+
+
     }
 
     public function create()
@@ -59,7 +61,6 @@ class BusController extends Controller
     	$bus->save();
     	return redirect()->route('buses.index')->with('info', 'Los datos fueron actualizados');
     }
-
 
   
     public function show($idBus)

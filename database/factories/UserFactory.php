@@ -72,3 +72,12 @@ $factory->define(App\Cliente::class, function (Faker $faker) {
         'foto' => $faker->imageUrl($width = 640, $height = 480),
     ];
 });
+
+$factory->define(App\Asiento::class, function (Faker $faker) {
+
+    return [
+        'numeroAsiento' => $faker->numberBetween($min = 1, $max = 120),
+        'id_Cliente' => $faker->numberBetween($min = 1, $max = 80),
+        'id_Bus' => $faker->numberBetween($min = 1, $max = 80),
+    ];
+});

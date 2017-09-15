@@ -35,7 +35,7 @@
 						<p><strong>Foto: </strong>
 							{{$cliente->foto}}</p>
 
-						{!! $cliente->body !!}
+						
 	</div>
 
 	<div class="col-sm-4">

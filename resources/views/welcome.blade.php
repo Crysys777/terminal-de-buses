@@ -86,6 +86,7 @@
                     <a href="{{ route('empresas.index') }}">Empresas</a>
                     <a href="{{ route('buses.index') }}">Buses</a>
                     <a href="{{ route('clientes.index') }}">Clientes</a>
+                    <a href="{{ route('asientos.index') }}">Asientos</a>
                    
                 </div>
             </div>
